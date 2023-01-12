@@ -7,21 +7,6 @@ This model is implemented with Haar Cascade and CNN to detect and recognise one-
 This project is written by Google Colab.
 Using library: OpenCV, Keras and Scikit-Learn
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
 ## Train and Validation Data
 Include 6 similar fonts to real plate (Cause font for plate number is national secret, can not be public). 31 class of characters (digits from 0 to 9, 21 letters ABCDEFGHKLMNPRSTUVXYZ)
 After that, generate them to 744 images by:
